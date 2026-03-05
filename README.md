@@ -131,8 +131,8 @@ Clicking **Complete Button**:
 ---
 
 ## 🔗 Submission
-- **Live Link :** 
-- **GitHub Repository:**
+- **Live Link :** wondrous-liger-6c9bf6.netlify.app
+- **GitHub Repository:** https://github.com/Meghadrita/My-Assignment-2
 
 
 ### 📅 Deadline For 60 marks: 5th March, 2026 (11:59 pm ⏱️)
