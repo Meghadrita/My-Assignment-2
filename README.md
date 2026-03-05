@@ -1,16 +1,147 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-02
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Customer Support Zone
 
-## Expanding the ESLint configuration
+This project is a React-based **Customer Support Zone** designed to display customer tickets, track progress, and mark them as resolved. It follows a Figma design and includes additional features like status management, responsiveness, and toast notifications using **React-Toastify**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features & Requirements 
+
+### ✅ Navbar 
+
+* Website name/logo on the **left**.
+* Menu items and **New Ticket** button on the **right**.
+
+### ✅ Banner
+
+* Banner section designed according to Figma.
+* Shows a **linear gradient** background.
+* Displays ticket statistics:
+
+  * **In Progress Count**
+  * **Resolved Count** (default = 0).
+
+### ✅ Main Section
+
+1. **JSON Data **
+
+   * Created **10–15 tickets** with the following properties:
+
+     * `id`, `title`, `description`, `customer`, `priority`, `status`, `createdAt`.
+
+2. **Ticket Cards**
+
+   * Display all ticket information in a **card layout**.
+   * Cards arranged in a **2-column grid** (left side).
+
+3. **Task Status Section**
+
+   * Clicking a card adds it to the **Task Status Section** (right side) and shows alert. It will increase the count of in-progress in banner
+   * Task Status shows:
+
+     * Ticket Title
+     * **Complete Button**
+   * Clicking **Complete Button**:
+
+     * show alert
+     
+
+
+### ✅ Footer 
+
+* Designed according to Figma.
+
+### ✅ Responsiveness 
+
+* The entire website is **responsive** for mobile devices.
+
+### ✅ Readme: 
+Create a README file to answer the following question-
+
+ - What is JSX, and why is it used?
+    JSX is a syntex of java script. it is simila to HTML. it is used for
+      1.easy to read code
+      2.use HTML in side js
+      3.help to build react component
+
+ - What is the difference between State and Props?
+    Props: pass data parant component to child component.
+    State: store data in side the component and it can be change. 
+
+ - What is the useState hook, and how does it work?
+    it is a function of react it creat a state variable and function update ta state.
+    example: const[count,setCount] = useState(0);
+    here firstly count value is 0
+    then count is present state
+    then setCount change the state.
+
+ - How can you share state between components in React?
+    1.lifting shift up
+    2.props passing
+    3.api.
+
+ - How is event handling done in React?
+    event handling done react inside the jsx. firstly use a event attribute and then call it
+    onClick is a event
+    and handleClick() a function thats it call.
+---
+
+### 
+
+## 📌 Challenge Requirements 
+
+### 🔔 React-Toastify 
+
+* Used **React-Toastify** to replace all alerts with stylish toast notifications.
+
+### 📝 Task Completion Logic 
+
+Clicking **Complete Button**:
+
+1. It is **removed from Task Status**. 
+2. It is added to the **Resolved List**. 
+3. The **In Progress count decreases**. 
+4. The **Resolved count increases**. 
+5. It is removed from the **Customer Tickets list**. 
+
+
+
+## 🧰 Required Technology Stack
+
+- **HTML**
+- **CSS** (Vanilla / Tailwind / DaisyUI)
+- **JavaScript**
+- **React.js** (Mandatory)
+
+> ⚠️ **Important:** The project must be built using **React.js**. Other frameworks such as Vue are not permitted.
+
+---
+
+## 📌 Project Rules
+
+- ✅ At least **5 meaningful commits** are required.
+- ❌ Do not use dummy text where real data can be displayed.
+
+---
+
+## 🔗 Submission
+- **Live Link :** 
+- **GitHub Repository:**
+
+
+### 📅 Deadline For 60 marks: 5th March, 2026 (11:59 pm ⏱️)
+
+### 📅 Deadline For 50 marks: 6th March, 2026 (11:59 pm ⏱️)
+
+### 📅 Deadline For 30 marks: Until the next assignment is published.
+
+
+---
+
+
